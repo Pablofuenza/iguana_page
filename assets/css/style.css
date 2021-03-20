@@ -4,13 +4,15 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    border: 4px solid olive;
+    /* border: 4px solid olive; */
     background-color: #000000;
+    border: none;
 }
 
 body * {
     
-   /*border: 2px solid blue;*/
+   /* border: 2px solid blue; */
+   
     
 }
 
@@ -18,8 +20,7 @@ body * {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 40px;
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
     
 }
 
@@ -27,23 +28,15 @@ body * {
     width: 100%;
     height: auto;
     display: flex;
-    padding: 20px;
-    border: 2px solid yellowgreen;
+    padding: 1.25rem;
+    /* border: 2px solid yellowgreen; */
 }
-
-.row h1 {
-    width: 100%;
-    height: auto;
-    margin-left: 340px;
-    border: 2px solid rgb(26, 243, 6);
-}
-
 
 .col-4 {
     width: 33.3%;
-    height: 150px;
-    border: 2px solid grey;
-    padding: 15px;
+    height: 9.375rem;
+    /* border: 2px solid grey; */
+    padding: 0.9375rem;
     text-align: center;
     
 }
@@ -51,57 +44,46 @@ body * {
 .col-12 {
     width: 100%;
     height: 0px;
-    border: 4px solid green;
-    padding: 50px 330px; 
+    /* border: 4px solid blue; */
+    padding: 3.125rem 20.625rem; 
     text-align: center;
-    float:none
-    
+   
 }
 
-.col-12 h1{
-    width: 100%;
-    height: 0px;
-    border: 4px solid green;
-    padding: 20px 0px; 
-    text-align: center;
-    
-}
-
-nav {
+.title {
     background-color: #000000;
     width: 100%;
-    height: 120px;
-    position: fixed;
+    height: 2rem;
+
 }
 
-nav h1 {
+.title h1 {
     
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 500;
     opacity: 1;
-    margin: -40px;
-    
-    
+    margin-left: 40rem;
+  
 }
 
 header {
-    margin-top: 120px;
+    margin-top: 7.5rem;
     width: 100%;
-    height: 800px;
-    padding-bottom: 200px;
+    height: 50rem;
+    padding-bottom: 12.5rem;
     
 }
 
 header img {
     width: 100%;
-    height: 1000px;
+    height: 62.5rem;
 
 }
 
 .desc-section {
     width: 100%;
-    height: 348px;
+    height: 21.75rem;
     padding: 0;
     background: black;
     display: inline-flex;
@@ -110,33 +92,34 @@ header img {
 
 .desc-section p {
     
-    top: 876px;
-    left: 150px;
-    width: 475px;
-    
+    top: 54.75rem;
+    left: 9.375rem;
+    width: 29.6875rem;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     opacity: 1;
     text-align: left;
     color: #ffffff;
+    margin-left: 7.8125rem;
+
 
 }
 
 .desc-section img {
-    margin-left: 125px;
-    max-height: 350px;
-    max-width: 350px;
+    margin-left: 7.8125rem;
+    max-height: 21.875rem;
+    max-width: 21.875rem;
 }
 
 .rowContenedor {
     width: 100%;
     height: auto;
     overflow: hidden;
-    display: block;
     clear: both;
-    padding: 20px;
-    border: 3px solid fuchsia;
+    padding: 1.25rem;
+    /* border: 3px solid fuchsia; */
     display: table;
+    
 }
 
 .rowContenedor-hijo-texto {
@@ -161,63 +144,73 @@ header img {
 .icons-section {
     width: 100%;
     background-color: #1E1A13;
-    border: 1px solid green;
-    
-    
+    /* border: 1px solid green;
+     */
 }
 
 .icons-section h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #ffffff;
     text-align: center;
     font-weight: 500;
+    padding-top: 2rem;
 }
 
 .icons-section h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #ffffff;
     text-align: center;
     font-weight: 300;
     opacity: 1;
+    padding-top: 1rem;
 }
 
 .icons-section i {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #ffffff;
     font-weight: 300;
+    padding-top: 1rem;
     opacity: 1;
 }
 
 .iguana-images {
 
    background-color: #000000;
-   top: 1488px;
-   left: 0px;
+   top: 93rem;
    width: 100%;
-   height: 348px;
-    
+   height: 21.75rem;
+   
 }
 
 .iguana-images img{
    
-   height: 202px;
-   width: 316px;
+   height: 12.625rem;
+   width: 19.75rem;
+}
+
+.iguana-images .container{
+   
+    height: 20.75rem;
+}
+
+footer .container {
+   
+    width: 100%;
 }
 
 footer {
     width: 100%;
-    height: 102px;
+    height: auto;
     background-color: #1E1A13;
 }
 
 footer p,a {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
     font-weight: 300;
     opacity: 1;
     text-decoration: none;
-    margin-bottom: 500px;
-
-
+    padding-bottom: 1rem;
+    
 }
 
